@@ -1,0 +1,50 @@
+
+
+.property{
+padding: 5rem 4%;
+
+ /* background-color: antiquewhite; */
+ text-align: center;
+
+}
+
+.property .heading{
+  margin-bottom: 1rem;
+}
+.propcarousel{
+   
+  margin-bottom: 1rem ;
+  
+}
+.propimg{
+          padding: 1.5rem;
+          height: 20rem;
+ 
+        
+}
+.propimg img{
+  height: 100%;
+  width: 100%;
+}
+
+.property .button{
+  margin-top: 3rem;
+}
+
+
+.slick-dots li button:before {
+ 
+  font-size: 16px;
+
+}
+ 
+
+@media (max-width: 768px) {
+ 
+}
+
+@media (max-width: 480px) {
+ 
+
+  
+}

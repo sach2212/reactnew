@@ -1,24 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
 
+ import Navbar from "./components/navbar/Navbar.js"
+ import 'bootstrap/dist/css/bootstrap.min.css';
+ import   'react-bootstrap';
+ // import './App.css';
+import Hero from "./components/hero/Hero.js"
+import Offer  from "./components/offers/Offer.js";
+import { About  } from "./components/about/About.js";
+import Facilities from "./components/facilities/facilities.js";
+import Property from "./components/property/property.js"
+import Destination from "./components/destination/destination.js"
+import Booking from "./components/booking/booking.js"
+import Footer from "./components/footer/footer.js"
+import Aboutpg from "./components/aboutpg/aboutpg.js"
+import {Route} from "react-router-dom"
+import {Routes} from "react-router-dom"
+ 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <div>
+     
+      <Navbar />  
+      <Hero/>
+      <About/>
+      <Offer/>
+     
+      <Facilities/>
+      <Property/>
+      <Booking/>
+      <Destination/>
+      
+    
+      <Footer/>
+      {/* <Aboutpg/> */}
+      
+      </div>
+
+
   );
 }
 

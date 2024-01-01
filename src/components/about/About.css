@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(251, 251, 251);
+  }
+  
+.about{
+    padding: 2rem 4%;
+ 
+    background-image: url('./../../assets/abt2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    display:  flex;
+    flex-wrap: wrap;
+    background-attachment: fixed;
+  
+}
+
+.about .about_cont h1{
+
+font-size: 3rem;
+color: rgb(216, 179, 67);
+text-transform: uppercase;
+text-align: center;
+ 
+letter-spacing: .2rem;
+
+margin: 2rem 0;
+}
+
+.about  .about_cont p {
+
+font-size: 1.3rem;
+ 
+text-transform: capitalize;
+text-align: left;
+ color: rgb(65, 64, 64);
+ 
+ margin: 1rem ;
+ 
+}
+
+
+.about  .about_cont p span {
+ font-weight: bolder;
+ color: rgb(0, 0, 0);
+ letter-spacing: .2rem;
+}
+ 
+
+.about_cont{
+
+flex: 1 1 30rem;
+display: flex;
+align-items: center;
+flex-direction: column
+
+}
+
+.button{
+
+    font-size: 1.2rem;
+    color: aliceblue;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: .2rem;
+    background-color: rgb(216, 179, 67);
+    border-radius: 0;
+    padding:  .5rem 1rem;
+    margin: 1rem 0;
+}
+
+@media screen and (max-width: 454px) {
+    .about .about_cont h1{
+
+        font-size: 2.5rem;
+    
+        letter-spacing: .2rem;
+        line-height: 1.5;
+    
+        }
+
+        
+}

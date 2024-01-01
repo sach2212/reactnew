@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap");
+  
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  align-items: center;
+  padding: 0 1rem;
+  height: 6.5rem;
+
+  background-color: transparent;   
+  z-index: 100000;
+  position: fixed;
+  background-color: rgba(253, 253, 253, 0.6);
+}
+
+.navbar .nav-menu {
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  min-height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-btn {
+  display: none;
+  font-size: 1rem;
+  z-index: 1000;
+}
+
+.navbar .nav-menu li {
+  padding: 0 0.6rem;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.navbar .nav-menu li a {
+  padding: 0 0.6rem;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 0.2rem;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+
+}
+
+.navbar .nav-menu li a:hover {
+  
+  color:rgb(216, 179, 67);
+  transition: .3s ease;
+  
+}
+
+.mobile_menu {
+  display: none;
+}
+ 
+/* -----------logo----------- */
+.navbar .logo {
+  width: 22rem;
+   
+}
+.navbar .logo img {
+  width: 100%;
+
+}
+
+ .mobile_menu svg{
+  font-size: 2rem;
+  text-align: right;
+  position: relative;
+  right: -150px;
+  
+ }
+ .slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: -15px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: 1.25;
+  color: rgb(255, 255, 255);
+
+
+
+ }
+
+
+
+@media screen and (max-width: 940px) {
+  .menu-btn {
+    display: block;
+    font-size: 2rem;
+    color: black;
+  }
+
+  .navbar .nav-menu li {
+    display: none;
+  }
+
+  .navbar .nav-menu {
+    /* align-items: end; */
+    
+    width: 100%;
+  }
+  .navbar .logo img {
+    display: block;
+
+    width: 18rem;
+    z-index: 1000;
+
+    display: flex;
+  }
+
+  .navbar .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+
+  .nav-icons {
+    display: none;
+  }
+
+  .mobile_menu {
+    display: block;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+  }
+  .mobile_menu {
+    display: flex;
+    position: absolute;
+    top: -40rem;
+    right: 0Px;
+    transition: 0.5s;
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0 20px;
+
+    z-index: 10000;
+  }
+
+  .active {
+    top: 0rem;
+  }
+  .mobile_ul li {
+    display: flex;
+
+    /* background-color: antiquewhite; */
+    padding: 1rem 1rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    width: 90vw;
+    border-bottom: 1px solid rgb(143, 139, 139);
+    margin: 1rem;
+    font-family: "Poppins", sans-serif;
+  }
+
+ 
+}

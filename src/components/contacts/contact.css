@@ -1,0 +1,94 @@
+ 
+
+.contactdata{
+    width: 100vw;
+    height: 70vh;
+    background: linear-gradient(to top,
+    rgba(56, 54, 54, 0.6),
+        rgba(8, 8, 8, 0.5)),
+    url('./../../assets/images/room1.jpeg');
+
+    background-position: center;
+    background-size: cover;
+ 
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-wrap: wrap;
+        margin-top: -8rem;
+  
+}
+.contact-content h1{
+    text-transform: capitalize;
+    color: white;
+    font-size: 3.8rem;
+}
+ .contact-content h1  span{
+    text-transform: capitalize;
+    color: white;
+    font-size: 4rem;
+    color: #F2B650;
+}
+ 
+
+.contactus{
+    padding: 4rem 4%;
+    background-color: rgb(245, 245, 245);
+}
+.contatc_box1{
+    
+    display: grid;
+  grid-template-columns: 
+  repeat(auto-fit, minmax(350px, 1fr));
+margin-bottom: 2rem;
+
+}
+
+
+.cont1{
+ /* background-color: rgb(236, 236, 236); */
+ margin: 1rem;
+ padding: 1rem;
+ box-shadow: rgba(0, 0, 0, 0.15) 
+        0px 2px 5px 0px;
+        background-color: rgb(252, 252, 252);
+        border-radius: .5rem;
+}
+.cont1 h4 {
+    color: rgb(73, 71, 71);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin: 2rem 0;
+    letter-spacing: .9px;
+    text-align: center;
+}
+
+.cont1 p {
+    color: black;
+    font-size: 1.1rem;
+   color:  rgb(92, 89, 89);
+    text-align: center;
+    
+}
+
+.contactus h1{
+    font-weight: bolder;
+    letter-spacing: .1rem;
+}
+
+.contactus   {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contactus  .button {
+ 
+    margin-bottom: 3rem;
+    color: white;
+    font-weight: bolder;
+
+}
+

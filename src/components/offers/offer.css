@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.offers {
+  /* margin-top: 2rem; */
+  padding: 4rem 4%;
+}
+
+.offer_cont {
+  display: flex;
+  /* background-color: antiquewhite; */
+  flex-wrap: wrap;
+  min-height: 50vh;
+  /* gap: 2rem; */
+}
+
+.content {
+  display: flex;
+
+  flex: 1 1 30rem;
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.content .content-spanfont {
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.content span {
+  margin: 2.5rem 0.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  box-shadow: 0 10px 15px -8px rgba(0, 0, 0, 0.1),
+    0 4px 6px -10px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 2px 4px 0 rgba(0,0,0,0.05);
+  }
+
+.content-span,
+.content-span2 {
+  display: flex;
+  margin: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.content-span p,
+.content-span2 p {
+  padding: 1rem;
+
+  font-size: 1rem;
+  text-align: center;
+}
+.content-span h3,
+.content-span2 h3 {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  font-weight: bolder;
+  margin-top: 1rem;
+  letter-spacing: 0.2rem;
+}
+.content-span img,.content-span2 img {
+  margin: 2.5rem;
+}
+
+.content .button {
+
+padding:0  .7rem;
+cursor: pointer;
+font-size: 1rem
+
+}
+
+@media (max-width: 1111px) {
+  .content-span,
+  .content-span2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 750px) {
+  .content-span,
+  .content-span2 {
+    grid-template-columns: 1fr;
+  }
+}

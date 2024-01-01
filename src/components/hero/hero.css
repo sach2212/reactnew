@@ -1,0 +1,70 @@
+
+.slider{
+  /* width: 100vw;
+  height: 150vh;
+ 
+  background-color: rgb(110, 102, 92); */
+
+}
+
+.slider_content{
+  height: 90vh;
+  width: 100%;
+ /* padding-top: -8rem; */
+  position: relative;
+
+}
+  .myimage{
+ 
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  cursor: grab;
+}
+
+.caption{
+ 
+  position: absolute;
+  /* z-index: 5; */
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(54, 54, 54,.3);
+ 
+  justify-content: center;
+  cursor: grab ;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+.slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: -15px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: 1.25;
+  color: rgb(255, 255, 255);
+
+ 
+ }
