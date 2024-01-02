@@ -12,8 +12,8 @@ import Destination from "./components/destination/destination.js"
 import Booking from "./components/booking/booking.js"
 import Footer from "./components/footer/footer.js"
  
-import {Route} from "react-router-dom"
-import {Routes} from "react-router-dom"
+// import {Route} from "react-router-dom"
+// import {Routes} from "react-router-dom"
  
 function App() {
   return (
