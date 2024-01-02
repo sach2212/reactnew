@@ -1,6 +1,6 @@
 import React from "react";
 import { RiMenu3Fill } from "react-icons/ri";
-import { CiSearch } from "react-icons/ci";
+ 
 import './navbar.css'
 import {useState} from "react";
 import logo from "./../../assets/updt/upLOGO-HILLTONE-BLACK.png"

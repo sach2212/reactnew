@@ -1,50 +1,28 @@
+.property {
+  padding: 5rem 4%;
 
-
-.property{
-padding: 5rem 4%;
-
- /* background-color: antiquewhite; */
- text-align: center;
-
+  text-align: center;
 }
 
-.property .heading{
+.property .heading {
   margin-bottom: 1rem;
 }
-.propcarousel{
-   
-  margin-bottom: 1rem ;
-  
+.propcarousel {
+  margin-bottom: 1rem;
 }
-.propimg{
-          padding: 1.5rem;
-          height: 20rem;
- 
-        
+.propimg {
+  padding: 1.5rem;
+  height: 20rem;
 }
-.propimg img{
+.propimg img {
   height: 100%;
   width: 100%;
 }
 
-.property .button{
+.property .button {
   margin-top: 3rem;
 }
 
-
-.slick-dots li button:before {
- 
+.slick-dots li button::before {
   font-size: 16px;
-
-}
- 
-
-@media (max-width: 768px) {
- 
-}
-
-@media (max-width: 480px) {
- 
-
-  
 }

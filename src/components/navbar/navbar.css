@@ -75,6 +75,7 @@
   right: -150px;
   
  }
+
  .slick-dots li button:before {
   font-family: 'slick';
   font-size: 6px;
@@ -89,8 +90,7 @@
   opacity: 1.25;
   color: rgb(255, 255, 255);
 
-
-
+ 
  }
 
 

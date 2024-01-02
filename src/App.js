@@ -1,7 +1,7 @@
 
  import Navbar from "./components/navbar/Navbar.js"
- import 'bootstrap/dist/css/bootstrap.min.css';
- import   'react-bootstrap';
+ 
+ 
  // import './App.css';
 import Hero from "./components/hero/Hero.js"
 import Offer  from "./components/offers/Offer.js";
@@ -11,7 +11,7 @@ import Property from "./components/property/property.js"
 import Destination from "./components/destination/destination.js"
 import Booking from "./components/booking/booking.js"
 import Footer from "./components/footer/footer.js"
-import Aboutpg from "./components/aboutpg/aboutpg.js"
+ 
 import {Route} from "react-router-dom"
 import {Routes} from "react-router-dom"
  
@@ -32,7 +32,7 @@ function App() {
       
     
       <Footer/>
-      {/* <Aboutpg/> */}
+   
       
       </div>
 

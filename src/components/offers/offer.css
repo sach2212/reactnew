@@ -4,16 +4,16 @@ body {
 }
 
 .offers {
-  /* margin-top: 2rem; */
+ 
   padding: 4rem 4%;
 }
 
 .offer_cont {
   display: flex;
-  /* background-color: antiquewhite; */
+ 
   flex-wrap: wrap;
   min-height: 50vh;
-  /* gap: 2rem; */
+
 }
 
 .content {
@@ -43,8 +43,8 @@ body {
 
   box-shadow: 0 10px 15px -8px rgba(0, 0, 0, 0.1),
     0 4px 6px -10px rgba(0, 0, 0, 0.1);
-    box-shadow: inset 0 2px 4px 0 rgba(0,0,0,0.05);
-  }
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+}
 
 .content-span,
 .content-span2 {
@@ -70,16 +70,15 @@ body {
   margin-top: 1rem;
   letter-spacing: 0.2rem;
 }
-.content-span img,.content-span2 img {
+.content-span img,
+.content-span2 img {
   margin: 2.5rem;
 }
 
 .content .button {
-
-padding:0  .7rem;
-cursor: pointer;
-font-size: 1rem
-
+  padding: 0 0.7rem;
+  cursor: pointer;
+  font-size: 1rem;
 }
 
 @media (max-width: 1111px) {
