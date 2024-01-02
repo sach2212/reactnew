@@ -63,6 +63,7 @@ function Property() {
               style={{ background: "no-repeat" }}
               src={event}
               className="myimage"
+              alt="d"
             />
           </div>
 
@@ -71,6 +72,7 @@ function Property() {
               style={{ background: "no-repeat" }}
               src={room}
               className="myimage"
+              alt="d"
             />
           </div>
           <div className="propimg">
@@ -78,6 +80,7 @@ function Property() {
               style={{ background: "no-repeat" }}
               src={swim}
               className="myimage"
+              alt="d"
             />
           </div>
           <div className="propimg">
@@ -85,6 +88,7 @@ function Property() {
               style={{ background: "no-repeat" }}
               src={room2}
               className="myimage"
+              alt="d"
             />
           </div>
         </Slider>

@@ -60,7 +60,7 @@ function Propertypage() {
       </div>
 
       <div className={model ? "model open" : "model"}>
-        <img src={tempimgSrc} />
+        <img src={tempimgSrc} alt="s" />
         <IoClose onClick={() => setmodel(false)} />
       </div>
       <div className="gallery">

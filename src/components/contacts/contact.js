@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../navbar/Navbar.js";
 import Fotter from "../footer/footer.js";
-import img from "../../assets/images/room1.jpeg";
 import "./contact.css";
 const Contact = () => {
   return (
@@ -81,6 +80,7 @@ const Contact = () => {
             <div className="destination">
               <div>
                 <iframe
+                title="map"
                   width="100%"
                   height="500"
                   frameborder="0"

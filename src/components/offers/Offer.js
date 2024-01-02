@@ -19,7 +19,7 @@ function Offer() {
           <div className="content-spanfont">
             <div className="content-span">
               <span>
-                <img src={wifiimg}></img>
+                <img src={wifiimg} alt="d"  ></img>
                 <h3>free wifi</h3>
                 <p>
                   Relax without
@@ -29,7 +29,7 @@ function Offer() {
               </span>
 
               <span>
-                <img src={rooms}></img>
+                <img src={rooms} alt="d"></img>
                 <h3>spacious rooms</h3>
                 <p>
                   Hilltone offers a budget hotel in matheran for couples or
@@ -37,7 +37,7 @@ function Offer() {
                 </p>
               </span>
               <span>
-                <img src={support}></img>
+                <img src={support} alt="d"></img>
                 <h3>customer service</h3>
                 <p>
                   Whether you have special requests, need assistance with local
@@ -47,7 +47,7 @@ function Offer() {
               </span>
 
               <span>
-                <img src={bonefire}></img>
+                <img src={bonefire} alt="d"></img>
                 <h3>events</h3>
                 <p>
                   Our bonfire facilities provide the perfect setting to gather
@@ -59,7 +59,7 @@ function Offer() {
 
             <div className="content-span2">
               <span>
-                <img src={swim}></img>
+                <img src={swim} alt="d"></img>
                 <h3>swimming pool</h3>
                 <p>
                   Indulge in the ultimate luxury retreat at Hilltone – the best
@@ -69,7 +69,7 @@ function Offer() {
               </span>
 
               <span>
-                <img src={food}></img>
+                <img src={food} alt="d"></img>
                 <h3>unlimitted buffet</h3>
                 <p>
                   Savor the delight of an unlimited buffet experience at
@@ -79,7 +79,7 @@ function Offer() {
               </span>
 
               <span>
-                <img src={tent}></img>
+                <img src={tent} alt="d"></img>
                 <h3>indoor-games</h3>
                 <p>
                   At Hilltone, we've curated a distinctive camping experience
@@ -90,7 +90,7 @@ function Offer() {
               </span>
 
               <span>
-                <img src={forest}></img>
+                <img src={forest} alt="d"></img>
                 <h3>forest</h3>
                 <p>
                   Wake up to the symphony of birdsong and the gentle rustle of

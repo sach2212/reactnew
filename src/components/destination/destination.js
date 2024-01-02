@@ -7,6 +7,7 @@ function Destination() {
       <h1 className="heading"> destination</h1>
       <div style={{width: "100%"}}>
         <iframe
+         title="map"
           width="100%"
           height="600"
           frameborder="0"

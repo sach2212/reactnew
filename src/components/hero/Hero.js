@@ -33,6 +33,7 @@ function Hero() {
           <img
             style={{ background: "no-repeat" }}
             src={img1}
+            alt="d"
             className="myimage"
           />
         </div>
@@ -45,6 +46,7 @@ function Hero() {
           <img
             style={{ background: "no-repeat" }}
             src={img3}
+            alt="d"
             className="myimage"
           />
         </div>

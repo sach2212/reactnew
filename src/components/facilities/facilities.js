@@ -13,7 +13,7 @@ function Facilities() {
       <div className="container">
         <div className="rooms">
           <div className="image">
-            <img src={room} className="img"></img>
+            <img src={room} alt="d" className="img"></img>
             <div className="content">
               <h4>rooms</h4>
               <p className="para">
@@ -27,7 +27,7 @@ function Facilities() {
         </div>
 
         <div className="music">
-          <img src={music} className="img"></img>
+          <img src={music}  alt="d" className="img"></img>
           <div className="content">
             <h4>musical night</h4>
             <p className="para">
@@ -40,7 +40,7 @@ function Facilities() {
         </div>
 
         <div className="forest">
-          <img src={trekking} className="img"></img>
+          <img src={trekking} alt="d" className="img"></img>
           <div className="content">
             <h4>treking & camping</h4>
             <p className="para">
@@ -53,7 +53,7 @@ function Facilities() {
         </div> 
         
           <div className="forest">
-          <img src={bonefire} className="img"></img>
+          <img src={bonefire} alt="d" className="img"></img>
           <div className="content">
             <h4>tent house</h4>
             <p className="para">
