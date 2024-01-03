@@ -29,7 +29,7 @@ function Footer() {
         </div>
       </div>
 
-      <span>Copyright © 2023 hilltone resort Matheran | Designed & Developed by webzone</span>
+      {/* <span>Copyright © 2023 hilltone resort Matheran | Designed & Developed by webzone</span> */}
     </div>
   );
 }

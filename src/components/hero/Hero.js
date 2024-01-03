@@ -3,6 +3,7 @@ import React from "react";
 
 import img3 from "../../assets/homebg6.jpg";
 import img1 from "../../assets/homebg4-min.jpg";
+import swim from "../../assets/images/room1(1).jpeg";
 
 import "./hero.css";
 
@@ -25,23 +26,15 @@ function Hero() {
   return (
     <div>
       <Slider className="slider" {...settings}>
-        <div className="slider_content">
+       
+        
+      <div className="slider_content">
           <div className="caption">
-            <h1>welcome to matheran</h1>
+            <h1>best budget resort in matheran</h1>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </div>
-          <img
-            style={{ background: "no-repeat" }}
-            src={img1}
-            alt="d"
-            className="myimage"
-          />
-        </div>
-
-        <div className="slider_content">
-          <div className="caption">
-            <h1>welcome to matheran</h1>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <button className="button">book now</button>
+       
+         
           </div>
           <img
             style={{ background: "no-repeat" }}
@@ -51,16 +44,41 @@ function Hero() {
           />
         </div>
 
-        {/* <div>
-    <img style={{width:"100%", background:"no-repeat"}} src={img1} className='myimage' />
-    <h1>welcome to matheran</h1>
-      
-      <div className="caption">
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        
+        <div className="slider_content">
+          <div className="caption">
+            <h1>Discover Matheran's Beauty with Hiltone </h1>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <button className="button">book now</button>
+       
+         
           </div>
-    </div>
-   */}
+          <img
+            style={{ background: "no-repeat" }}
+            src={swim}
+            alt="d"
+            className="myimage"
+          />
+        </div>
+        
+        <div className="slider_content">
+          <div className="caption">
+            <h1>experience the glimpse of matheran at hillton</h1>
+            <p>Discover the charm of Matheran with a memorable stay at Hilltone.</p>
+            <button className="button">book now</button>
+          </div>
+          <img
+            style={{ background: "no-repeat" }}
+            src={img1}
+            alt="d"
+            className="myimage"
+          />
+        </div>
+
+        
+        
+      
+        
       </Slider>
     </div>
   );
