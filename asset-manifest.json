@@ -1,31 +1,38 @@
 {
   "files": {
-    "main.css": "/reactnew/static/css/main.6deebc1a.css",
-    "main.js": "/reactnew/static/js/main.0387aa16.js",
+    "main.css": "/reactnew/static/css/main.8ccc3603.css",
+    "main.js": "/reactnew/static/js/main.797137a3.js",
     "static/js/787.0af2b8a5.chunk.js": "/reactnew/static/js/787.0af2b8a5.chunk.js",
     "static/media/homebg.jpg": "/reactnew/static/media/homebg.d62fdefc3d7153327a6b.jpg",
     "static/media/homebg6.jpg": "/reactnew/static/media/homebg6.4306e1ad3396f02f26a2.jpg",
     "static/media/homebg4-min.jpg": "/reactnew/static/media/homebg4-min.246f9f192fa55352703c.jpg",
     "static/media/bonefire.jpg": "/reactnew/static/media/bonefire.a5af2215b9238a3021a7.jpg",
+    "static/media/swim2.jpeg": "/reactnew/static/media/swim2.76e1cb27976840411a6d.jpeg",
     "static/media/event.jpeg": "/reactnew/static/media/event.7613cb161b0ed3abec86.jpeg",
     "static/media/swim.jpeg": "/reactnew/static/media/swim.377278e14ad23ef6805b.jpeg",
+    "static/media/dine.jpeg": "/reactnew/static/media/dine.1b0628e564a336ed8d4d.jpeg",
     "static/media/trekking.jpg": "/reactnew/static/media/trekking.c0cf637493be9a78a479.jpg",
+    "static/media/room1(1).jpeg": "/reactnew/static/media/room1(1).bd5e00d9848d984055f2.jpeg",
+    "static/media/toilet.jpeg": "/reactnew/static/media/toilet.0437cddae764a86f3b30.jpeg",
     "static/media/room1.jpeg": "/reactnew/static/media/room1.3be85c6a2aaa1fad0294.jpeg",
     "static/media/abt2.jpg": "/reactnew/static/media/abt2.97466ee2a190a1cd86fa.jpg",
+    "static/media/tent1.avif": "/reactnew/static/media/tent1.6c510eb317b3117c45b3.avif",
     "static/media/room2.jpeg": "/reactnew/static/media/room2.316456ec9a6887fbbb55.jpeg",
     "static/media/tent.jpg": "/reactnew/static/media/tent.1a3dc1a91a230c21c39a.jpg",
     "static/media/upLOGO-HILLTONE-BLACK.png": "/reactnew/static/media/upLOGO-HILLTONE-BLACK.a41f17e69b36f9a9046a.png",
+    "static/media/room6.jpeg": "/reactnew/static/media/room6.1dac8b76fd078dc5b4c5.jpeg",
+    "static/media/room5.jpeg": "/reactnew/static/media/room5.4c2406a522af91456b3c.jpeg",
     "static/media/slick.svg": "/reactnew/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/reactnew/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/reactnew/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/reactnew/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/reactnew/index.html",
-    "main.6deebc1a.css.map": "/reactnew/static/css/main.6deebc1a.css.map",
-    "main.0387aa16.js.map": "/reactnew/static/js/main.0387aa16.js.map",
+    "main.8ccc3603.css.map": "/reactnew/static/css/main.8ccc3603.css.map",
+    "main.797137a3.js.map": "/reactnew/static/js/main.797137a3.js.map",
     "787.0af2b8a5.chunk.js.map": "/reactnew/static/js/787.0af2b8a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6deebc1a.css",
-    "static/js/main.0387aa16.js"
+    "static/css/main.8ccc3603.css",
+    "static/js/main.797137a3.js"
   ]
 }
