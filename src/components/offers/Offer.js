@@ -14,6 +14,7 @@ import forest from "./../../assets/forest.png";
 function Offer() {
   return (
     <div className="offers">
+      <h1 className="heading">amenties</h1>
       <div className="offer_cont">
         <div className="content">
           <div className="content-spanfont">

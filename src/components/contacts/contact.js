@@ -5,7 +5,7 @@ import "./contact.css";
 const Contact = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar></Navbar>
       <div className="contactdata">
         <div className="contact-content">
           <h1>
@@ -22,14 +22,32 @@ const Contact = () => {
             <div className="cont1">
               <h4> 1. train from dadar</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum
-                assumenda minima ea amet itaque fugiat quas in delectus dolor
-                quasi?
+                Catch a train to Neral,Although there isn’t a train directly to
+                Matheran.There are regular, frequent trains from major cities
+                such as Pune and Mumbai. you can check on M-indicator app
               </p>
             </div>
 
             <div className="cont1">
-              <h4> 2. train from dadar</h4>
+              <h4> 2.take a taxi from neral station to matheran </h4>
+              <p>
+                The toy train is one of the highlights of visiting Matheran! Buy
+                a ticket for the toy train at the Neral station and then get on
+                the train
+              </p>
+            </div>
+
+            <div className="cont1">
+              <h4>3.   toy train from Neral to Matheran</h4>
+              <p>
+              The toy train is one of the highlights of visiting Matheran! Buy
+                a ticket for the toy train at the Neral station and then get on
+                the train
+              </p>
+            </div>
+
+            <div className="cont1">
+              <h4>4.explore the maatheran market</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum
                 assumenda minima ea amet itaque fugiat quas in delectus dolor
@@ -38,7 +56,7 @@ const Contact = () => {
             </div>
 
             <div className="cont1">
-              <h4>3. train from dadar</h4>
+              <h4>5. check in the nearest hotel room</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum
                 assumenda minima ea amet itaque fugiat quas in delectus dolor
@@ -47,32 +65,13 @@ const Contact = () => {
             </div>
 
             <div className="cont1">
-              <h4>4. train from dadar</h4>
+              <h4>6. explore matheran</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum
                 assumenda minima ea amet itaque fugiat quas in delectus dolor
                 quasi?
               </p>
             </div>
-
-            <div className="cont1">
-              <h4>5. train from dadar</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum
-                assumenda minima ea amet itaque fugiat quas in delectus dolor
-                quasi?
-              </p>
-            </div>
-
-            <div className="cont1">
-              <h4>6. train from dadar</h4>
-              <p>
-                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum
-                assumenda minima ea amet itaque fugiat quas in delectus dolor
-                quasi?
-              </p>
-            </div>
-        
           </div>
           <button className="button">book a call now</button>
 
@@ -80,7 +79,7 @@ const Contact = () => {
             <div className="destination">
               <div>
                 <iframe
-                title="map"
+                  title="map"
                   width="100%"
                   height="500"
                   frameborder="0"

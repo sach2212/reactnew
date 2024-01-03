@@ -2,6 +2,7 @@
 import React from "react";
 import "./aboutpg.css";
 import Navbar from "../navbar/Navbar";
+import Footer from "../footer/footer.js";
 import home from "./../../assets/homebg4-min.jpg";
 function Aboutpg() {
   
@@ -92,6 +93,7 @@ function Aboutpg() {
         </div>
       </div>
     </div>
+    <Footer></Footer>
     </div>   
   );
 }

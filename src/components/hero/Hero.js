@@ -20,8 +20,8 @@ function Hero() {
     speed: 1200,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // autoplay: true,
-    // autoplaySpeed: 3000,
+    autoplay: true,
+    autoplaySpeed: 2000,
   };
   return (
     <div>
@@ -31,7 +31,7 @@ function Hero() {
       <div className="slider_content">
           <div className="caption">
             <h1>best budget resort in matheran</h1>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <p>Discover Blissful Retreats at Hiltone: Your Perfect Escape Awaits.</p>
             <button className="button">book now</button>
        
          
@@ -47,9 +47,10 @@ function Hero() {
         
         <div className="slider_content">
           <div className="caption">
-            <h1>Discover Matheran's Beauty with Hiltone </h1>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            <button className="button">book now</button>
+
+          <h1> explore hillton property</h1>
+            <p>Where Beauty Meets the Budget </p>
+           <button className="button">book now</button>
        
          
           </div>
@@ -63,8 +64,9 @@ function Hero() {
         
         <div className="slider_content">
           <div className="caption">
-            <h1>experience the glimpse of matheran at hillton</h1>
-            <p>Discover the charm of Matheran with a memorable stay at Hilltone.</p>
+          <h1>Affordable Elegance at Hiltone </h1>
+            <p>Beauty and Affordability Crafted in Every memories</p>
+            
             <button className="button">book now</button>
           </div>
           <img

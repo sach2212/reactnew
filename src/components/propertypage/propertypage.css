@@ -1,12 +1,16 @@
+
+
 .galcontent {
   padding:2rem 6%;
   text-align:left;
+  
 }
 .galcontent p {
   font-size:1.3rem;
 }
 .galcontent h1 {
   margin-bottom: 2rem;
+  margin-top: 5rem;
 }
 
 .gallery {
@@ -32,6 +36,7 @@
   cursor: pointer;
   transform: scale(0.9);
   transition: 0.4s ease-in;
+  z-index: 100000;
 }
 .pics img:hover {
   transform: scale(1);
@@ -72,11 +77,12 @@
   box-sizing: border-box;
   padding: 20px 0 20px;
   margin: 0 auto;
+  z-index: 1999;
 }
 
 .model.open svg {
   position: fixed;
-  top: 10px;
+  top: 100px;
   right: 10px;
   width: 4rem;
   height: 4rem;
@@ -84,7 +90,9 @@
   background-color: black;
   cursor: pointer;
   color: aliceblue;
+  z-index: 10000000000000;
 }
+
 
 @media (max-width: 991px) {
   .gallery {
@@ -94,7 +102,7 @@
   }
 }
 
-@media (max-width: 451px) {
+@media (max-width: 570px) {
   .gallery {
     --webkit-column-count: 1;
     --moz-column-count: 1;

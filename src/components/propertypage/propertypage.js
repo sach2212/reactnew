@@ -3,7 +3,15 @@ import "./propertypage.css";
 import Navbar from "../navbar/Navbar.js";
 import Fotter from "../footer/footer.js";
 import imgs from "./../../assets/images/room1.jpeg";
-import imgs1 from "./../../assets/images/room2.jpeg";
+import dine from "./../../assets/images/dine.jpeg";
+import room5 from "./../../assets/images/room5.jpeg";
+import room6 from "./../../assets/images/room6.jpeg";
+
+import toilet from "./../../assets/images/toilet.jpeg";
+import tent1 from "./../../assets/images/tent1.avif";
+import event from "./../../assets/images/event.jpeg";
+import swim from "./../../assets/images/swim.jpeg"
+import swim2 from "./../../assets/images/swim2.jpeg"
 
 import { IoClose } from "react-icons/io5";
 
@@ -11,26 +19,38 @@ function Propertypage() {
   let data = [
     {
       id: 1,
-      imgSrc: imgs,
+      imgSrc: event,
     },
     {
-      id: 1,
-      imgSrc: imgs1,
+      id: 2,
+      imgSrc: room6,
     },
     {
       id: 3,
-      imgSrc: imgs,
+      imgSrc: swim,
     },
     {
       id: 4,
-      imgSrc: imgs,
+      imgSrc: dine,
     },
     {
       id: 5,
-      imgSrc: imgs,
+      imgSrc: toilet,
     },
     {
       id: 6,
+      imgSrc: tent1,
+    },
+     {
+      id: 7,
+      imgSrc: room5,
+    },
+    {
+      id: 8,
+      imgSrc: swim2,
+    },
+    {
+      id: 9,
       imgSrc: imgs,
     },
   ];
@@ -44,8 +64,10 @@ function Propertypage() {
   };
 
   return (
-    <>
-      <Navbar />
+    
+    <div className='bigcont'>
+      <Navbar>
+      </Navbar>
       <div className="galcontent">
         <h1 className="heading">gallery</h1>
         <p>
@@ -78,7 +100,7 @@ function Propertypage() {
       </div>
 
       <Fotter />
-    </>
+    </div>
   );
 }
 

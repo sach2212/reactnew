@@ -7,14 +7,16 @@ background: linear-gradient(to top, #8d8d8d, #000000);
 background: linear-gradient(90deg, rgb(0, 0, 0) 0%,
  rgb(39, 38, 36) 59%, rgb(0, 0, 0) 100%);
    text-align: center;
- 
+ padding-bottom: 2rem ;
 }
 
 .footer .container{
 display: flex;
     flex-wrap: wrap;
     align-items: center;
-
+    border-bottom: 1px solid rgb(254, 254, 254);
+    padding-bottom: 2rem ;
+    margin-bottom: 1rem ;
 }
  
  
@@ -91,15 +93,15 @@ display: flex;
     /* cursor: pointer; */
 }
 
-.footer span{
+.footer .copy{
  
     color: white;
     text-transform: capitalize;
     letter-spacing: .9px;
    
-  
-
+     margin-top: 1rem;
     text-align: center;
+   
          
 }
 

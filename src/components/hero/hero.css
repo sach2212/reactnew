@@ -62,16 +62,23 @@ font-family: 'Playfair Display SC', serif;
   font-size: 1.3rem;
   /* text-shadow: rgb(201, 201, 201) 0.1em 0.1em 0.2em; */
   letter-spacing: .1rem;
- 
+ margin: .5rem .2rem;
+ text-align: center;
 }
 
 
 .caption .button{
-/* background-color: rgb(216, 179, 67); */
-
+ 
 background-color: rgb(194, 159, 56);
-/* text-shadow: rgb(52, 52, 52) 0.1em 0.1em 0.2em; */
+ 
 font-family: 'Poppins', sans-serif;
+}
+
+  .button:hover{
+ 
+background-color: rgb(208, 177, 82);
+ 
+ 
 }
 
 
@@ -108,4 +115,40 @@ font-family: 'Poppins', sans-serif;
  .slick-dots li.slick-active button:before {
   opacity: .75;
   color: #eda425;
+}
+
+
+@media screen and (max-width:650px){
+  
+  .caption h1{
+ 
+    font-size: 2.3rem;
+    /* font-family: 'Poppins', sans-serif;  */
+    margin-top: 11rem;
+    /* text-align: left; */
+    letter-spacing: .1rem;
+    font-weight: 100;
+  }
+  
+  .caption p{
+  
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    /* text-shadow: rgb(201, 201, 201) 0.1em 0.1em 0.2em; */
+    letter-spacing: normal;
+    padding: 1rem 0;
+   text-align: center;
+  }
+
+  .caption{
+ 
+ 
+    background-color: rgba(0, 0, 0, .42);
+    
+    font-family: 'Poppins', sans-serif; 
+    text-align: justify;
+  }
+
+
 }
