@@ -1,0 +1,91 @@
+Introduction:
+
+this is a static/frontend react website with basic functionality.
+this website just showcase the resort business online,with images and reviews
+
+
+Installation:
+
+
+1-clone this repository to your local machine using git clone https://github.com/
+
+
+Dependencies:
+
+"@testing-library/jest-dom": "^5.17.0",
+
+ =  is a family of libraries that provides utilities for testing    user interfaces in a way that simulates how users interact with the application
+
+"@testing-library/react": "^13.4.0",
+
+    =This library is specifically designed for testing 
+    React applications.
+    It provides utilities for rendering React components, interacting with them, and making assertions based on their rendered output.
+
+"@testing-library/user-event": "^13.5.0",
+
+    = This library provides a set of utility functions for simulating user events, such as typing, clicking, and navigating with the keyboard.
+
+
+"css-minimizer-webpack-plugin": "^5.0.1",
+
+    =  The css-minimizer-webpack-plugin is a plugin for Webpack that allows you to minimize and optimize CSS in your project.
+    
+    npm install --save-dev css-minimizer-webpack-plugin optimize-css-assets-webpack-plugin
+
+    
+    "node": "^21.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+     
+     =react-dom provides the ReactDOM.render() method, which is used to render React elements into the DOM.
+
+    "react-icons": "^4.12.0", = enables icons
+    "react-responsive-carousel": "^3.2.23", = external link which is used for image slider
+    "react-router-dom": "^6.21.1",
+   .
+   
+    = you can create navigation and routing features that allow users to move between different views or pages within a single-page application (SPA).
+
+
+    "react-scripts": "5.0.1",
+
+    =react-scripts provides a set of predefined scripts that you can run using npm or yarn commands. These scripts are defined in the scripts section of your package.json.
+
+    "react-slick": "^0.29.0",
+
+    = its an npm package use to make a image slider
+    "slick-carousel": "^1.8.1",
+
+    "web-vitals": "^2.1.4"
+
+   =web-vitals is a JavaScript library that provides a set of metrics for measuring real user experiences on the web. These metrics help developers understand and improve the performance and user-friendliness of their web applications. 
+
+
+                    folder structure
+
+my-react-app/
+|-- node_modules/    # Dependencies installed by npm  
+|-- public/          # Static assets, HTML template, and manifest
+|   |-- index.html   # Main HTML file
+|   |-- favicon.ico  # Favicon
+|   |-- manifest.json # Web App Manifest
+|-- src/             # Source code for the React application
+|   |-- components/  # Reusable React components
+|   |-- pages/       # Top-level components for each page or route
+|   |-- App.js       # Root component
+|   |-- index.js     # Entry point for ReactDOM.render
+|-- .gitignore       # Git configuration to ignore certain files/
+
+directories
+
+|-- package.json     # Project configuration and dependencies
+|-- README.md        # Project documentation
+|-- .eslintrc        # ESLint configuration
+|-- .prettierrc      # Prettier configuration
+|-- public/          # Public directory (typically for static files)
+|-- build/           # Build output (generated when running npm run build)
+
+|-- .env             # is commonly used in the context of Create React App.           
+|-- .git/            # Git directory (version control)
+|-- ...              # Other configuration files and miscellaneous

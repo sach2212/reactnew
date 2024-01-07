@@ -6,8 +6,8 @@ import {useState} from "react";
 import logo from "./../../assets/updt/upLOGO-HILLTONE-BLACK.png"
 import { IoClose } from "react-icons/io5";
 
-
-import { Link } from "react-router-dom"
+import { BrowserRouter as Router,  Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 function Navbar() {
   const [nav,setnav]= useState(false)
   const toogle =()=> setnav(!nav)
@@ -18,7 +18,7 @@ function Navbar() {
       <ul className="nav-menu">
      
         <li> <Link to= '/'> home</Link>  </li>
-        <li> <Link to= '/about'> about</Link>  </li>
+        <li> <Link  to= '/about'> about</Link>  </li>
    
         <div className="logo">
         
