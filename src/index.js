@@ -46,11 +46,11 @@ import Contact from './components/contacts/contact.js'
 
 
   ReactDOM.render(
-    <React.StrictMode>
+  
       <Router>
         <App />
-      </Router>
-    </React.StrictMode>,
+      </Router>,
+   
     document.getElementById('root')
   );
 
